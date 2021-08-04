@@ -1,0 +1,39 @@
+---
+title: "Acerca del Grupo"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+**El Grupo ad hoc de Oficiales de Cumplimiento de Bancos Centrales**, fue creado por acuerdo del Consejo Monetario Centroamericano (CMCA) en su 285a Reunión celebrada el 7 y 8 de marzo de 2019, en la Ciudad de Antigua Guatemala, Guatemala, con el objeto de apoyar al Comité Técnico de Sistemas de Pagos, en la adopción de las mejores prácticas para fortalecer las labores de prevención de lavado de activos, financiamiento al terrorismo y proliferación de armas de destrucción masiva (LD/FT/PADM).
+
+**Objetivos:**
+
+1. Identificar y recomendar estándares y buenas prácticas en materia de prevención de LD/FT/PADM emitidas por organismos internacionales.
+
+2. Realizar estudios y propuestas específicas a los Comités de Apoyo del CMCA para fortalecer la gestión de riesgos de LD/FT/PADM en los Sistemas de Pago y procesos de los Bancos Centrales de la región.
+
+3. Fomentar la cooperación entre todas las oficialías de cumplimientos de los bancos centrales de la región, en: asistencia técnica conjuntas o bilaterales, pasantías, capacitaciones conjuntas o bilaterales, intercambio de material de comunicación o formación institucional en materia de prevención de LD/FT/PADM.
+
+
+**INTEGRANTES**
+```{r include=FALSE, cache=FALSE, results = 'hide', message = FALSE}
+library(kableExtra)
+library(latex2exp)
+C1<-c("Luis Gustavo Vargas Rodríguez", "Eduardo Rafael Vasquez", "Rocío Beatriz Sol Merino", "Maynor Augusto Ambrosio Higueros", "Eduardo Antonio Chinchilla Mejía", "Carlos Munguía Chang", "Sonia Patricia Espino Yunes", "Luis Ernesto Ortiz Cevallos")
+C2<-c("Banco Central de Costa Rica", "Banco Central de Reserva de El Salvador", "Banco Central de Reserva de El Salvador", "Banco de Guatemala", "Banco Central de Honduras", "Banco Central de Nicaragua", "Banco Central de República Dominicana", "Secretaría Ejecutiva del Consejo Monetario Centroamericano")
+df<-cbind(C1,C2)
+df<-as.data.frame(df)
+colnames(df)<-c("TITULAR", "INSTITUCIÓN")
+```
+
+```{r echo=FALSE, warning=FALSE, results='asis'}
+df %>%
+   kbl() %>%
+   kable_styling(bootstrap_options = "striped", full_width = F, position = "center",  font_size = 20)%>%
+   kable_classic(full_width = F, html_font = "Cambria")%>%
+  column_spec(1, bold = F, border_right = T, border_left = T) %>%
+  column_spec(2, bold = F, border_right = T,border_left = T)%>%
+  row_spec(0, bold = F, color = "#084E9B", background = "#E7B70D")
+```

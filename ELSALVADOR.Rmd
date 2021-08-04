@@ -1,0 +1,78 @@
+---
+title: "MARCO NORMATIVO"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+En esta sección se presenta por país las diferentes leyes y/o normativas **vigentes** que componen el marco regulatorio referente al tema de Prevención de Lavado de Activos, Financiamiento al Terrorismo y Proliferación de Armas de Destrucción Masiva (LD/FT/PADM) 
+
+# EL SALVADOR
+
+## Ordenamiento Jurídico Internacional
+
+- [Convención de las Naciones Unidas contra el Tráfico Ilícito de Estupefacientes y Sustancias Sicotrópicas](http://www.uif.gob.sv/wp-content/uploads/convenciones/01-Convencion-de-las-Naciones-Unidas-contra-el-Trafico-Ilicito-Viena-1988.pdf)
+
+
+- [Convención de las Naciones Unidas Contra la Delincuencia Organizada Transnacional y sus Protocolos](http://www.uif.gob.sv/wp-content/uploads/convenciones/02-Convencion-de-Palermo-anio-2000.pdf)
+
+
+- [Convención de las Naciones Unidas contra la Corrupción](http://www.uif.gob.sv/wp-content/uploads/convenciones/03-Convencion-de-las-Naciones-Unidas-contra-la-Corrupcion.pdf)
+
+
+- [Convenio entre el Gobierno de la República de El Salvador y el Gobierno de la República de Colombia sobre Cooperación en la Lucha Contra el Problema Mundial de las Drogas y sus Delitos Relacionados](https://imprentanacional.gob.sv/archivo-digital-del-diario-oficial/)
+
+- [Convenio Centroamericano para la Prevención y la Represión de los Delitos de Lavado de Dinero y de Activos Relacionado con el Tráfico Ilícito de Drogas y Delitos Conexos](http://www.uif.gob.sv/wp-content/uploads/convenciones/04-Convenio-C-A-para-la-prevencion-la-represion-delitos-lavado-dinero-activos.pdf)
+
+- [Convenio Centroamericano para la Prevención y la Represión de los Delitos de Lavado de Dinero y de Activos Relacionado con el Tráfico Ilícito de Drogas y Delitos Conexos](http://www.uif.gob.sv/wp-content/uploads/convenciones/04-Convenio-C-A-para-la-prevencion-la-represion-delitos-lavado-dinero-activos.pdf)
+
+## Ordenamiento Jurídico Secundario
+
+- [Código Penal](https://www.asamblea.gob.sv/sites/default/files/documents/decretos/C0AB56F8-AF37-4F25-AD90-08AE401C0BA7.pdf)
+
+
+- [Código Procesal Penal](https://www.asamblea.gob.sv/sites/default/files/documents/decretos/171117_072931433_archivo_documento_legislativo.pdf)
+
+
+- [Ley Contra el Lavado de Dinero y de Activos](https://www.asamblea.gob.sv/sites/default/files/documents/decretos/1B53E30C-6A8A-4BEB-B17C-C61A231992D3.pdf)
+
+
+- [Reglamento de la Ley Contra el Lavado de Dinero y de Activos](http://www.uif.gob.sv/wp-content/uploads/instructivos/Reglamento-de-la-Ley-contra-el-Lavado-de-Dinero-y-de-Activos.pdf )
+
+
+- [Instructivo de la Unidad de Investigación Financiera para la Prevención del Lavado de Dinero y de Activos ](http://www.uif.gob.sv/wp-content/uploads/instructivos/Instructivo-de-la-Unidad-de-Investigacion-Financiera-Acuerdo-No085Diario-Oficial.pdf)
+
+
+- [Ley Reguladora de las Actividades Relativas a las Drogas](https://www.asamblea.gob.sv/decretos/details/3417)
+
+- [Ley Especial Contra Actos de Terrorismo](https://www.asamblea.gob.sv/decretos/details/477)
+
+
+- [Ley Especial de Extinción de Dominio y de la Administración de los Bienes de Origen o destinación ilícita](https://www.asamblea.gob.sv/sites/default/files/documents/decretos/171117_073416504_archivo_documento_legislativo.pdf)
+
+
+- [Ley Contra el Lavado de Dinero y de Activos](https://www.asamblea.gob.sv/sites/default/files/documents/decretos/1B53E30C-6A8A-4BEB-B17C-C61A231992D3.pdf)
+
+
+- [Ley Especial para la Intervención de las Telecomunicaciones](https://www.asamblea.gob.sv/sites/default/files/documents/decretos/C6AD3E02-917E-426F-AEC4-01A8C7D013F0.pdf)
+
+
+- [Normas Técnicas para la Gestión de los riesgos de Lavado de Dinero y de Activos, y de Financiamiento al Terrorismo](https://ssf.gob.sv/wp-content/uploads//ssf2018/Normativa_General/NRP_08.pdf)
+
+
+- [Ley Orgánica de la Fiscalía General de la República ](https://www.asamblea.gob.sv/decretos/details/3316)
+
+## Buenas Prácticas
+
+- [Lista emitidas por la Oficina de Control de Activos de Extranjeros u Office of Foreign Assets Control]()
+
+
+- [Estándares Internacionales sobre la Lucha Contra el Lavado de Activos, el Financiamiento del Terrorismo, y el Financiamiento de la Proliferación de Armas de Destrucción Masiva](https://www.gafilat.org/index.php/es/biblioteca-virtual/gafilat/documentos-de-interes-17/publicaciones-web/4013-recomendaciones-metodologia-actdic20-1/file )
+
+
+- [USA Patriot](https://www.congress.gov/107/plaws/publ56/PLAW-107publ56.pdf)
+
+- [Principios de Wolfsberg para la Prevención del Blanqueo de Dinero en Banca de Corresponsales](https://www.wolfsberg-principles.com/sites/default/files/wb/pdfs/translations/spanish/105.%20correspondent-spanish.pdf)
+

@@ -1,0 +1,19 @@
+---
+title: "GRUPO DE OFICIALES DE CUMPLIMIENTO DE LOS BANCOS CENTRALES DEL CMCA"
+description: |
+  Bienvenido a nuestro sitio web
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## ÚLTIMAS NOTICIAS
+
+- Tercera Reunión del Grupo ad-hoc de Oficiales de Cumplimiento de los Bancos Centrales de la Región. [Boletin de prensa](http://www.secmca.org/wp-content/uploads/2021/03/Boletin-de-Prensa-Reuni%C3%B3n-Virtual-GOC.pdf)
+
+
+```{r echo=FALSE, out.width = "500px", out.height="250px",fig.align='center'}
+knitr::include_graphics("images/R3.jpg")
+```
+

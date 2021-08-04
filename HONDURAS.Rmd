@@ -1,0 +1,12 @@
+---
+title: "MARCO NORMATIVO"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+En esta sección se presenta por país las diferentes leyes y/o normativas **vigentes** que componen el marco regulatorio referente al tema de Prevención de Lavado de Activos, Financiamiento al Terrorismo y Proliferación de Armas de Destrucción Masiva (LD/FT/PADM) 
+
+# HONDURAS

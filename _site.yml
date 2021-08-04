@@ -1,0 +1,33 @@
+name: "SITE_WEB"
+title: "."
+theme: theme.css
+description: |
+  GRUPO DE OFICIALES DE CUMPLIMIENTO DE LOS BANCOS CENTRALES DEL CMCA
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Inicio"
+      href: index.html
+    - text: "Acerca del Grupo"
+      href: INTRO.html
+    - text: "Marco Normativo"
+      menu:
+        - text: "COSTA RICA"
+          href: COSTARICA.html
+        - text: "EL SALVADOR"
+          href: ELSALVADOR.html
+        - text: "GUATEMALA"
+          href: GUATEMALA.html
+        - text: "HONDURAS"
+          href: HONDURAS.html
+        - text: "NICARAGUA"
+          href: NICARAGUA.html
+        - text: "REP. DOMINICANA"
+          href: REPDOMI.html
+    - text: "Proyectos"
+      menu:
+        - text: "Seminarios y cursos"
+          href: SEMI.html
+        - text: "Material Educativo"
+          href: EDUCA.html
+output: distill::distill_article

@@ -1,0 +1,23 @@
+---
+title: "SEMINARIOS Y CURSOS"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+### SEMINARIO: INTRODUCCIÓN A LA PREVENCIÓN DEL LD/FT/PADM (31-05-21)
+
+
+
+```{r echo=FALSE}
+xaringanExtra::embed_xaringan(
+  url = "https://ortiz-cevallos.github.io/XARINGAN_EJEMPLO/PLAN-ESTRATÉGICO.html",
+  ratio = "16:9"
+)
+```
+<p style="text-align:right;">[<i class="fas fa-external-link-alt"></i>Expandir la presentación](https://ortiz-cevallos.github.io/XARINGAN_EJEMPLO/PLAN-ESTRATÉGICO.html)</p>
