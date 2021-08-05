@@ -10,10 +10,17 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 ## ÚLTIMAS NOTICIAS
 
-- Tercera Reunión del Grupo ad-hoc de Oficiales de Cumplimiento de los Bancos Centrales de la Región. [Boletin de prensa](http://www.secmca.org/wp-content/uploads/2021/03/Boletin-de-Prensa-Reuni%C3%B3n-Virtual-GOC.pdf)
+
+
+- Grupo ad-hoc de Oficiales de Cumplimiento de los Bancos Centrales de la Región organizan primera capacitación interna. [Boletín de prensa](http://www.secmca.org/wp-content/uploads/2021/06/Boletin-de-Prensa-Capacitaci%C3%B3n-Interna-GOC.pdf)
 
 
 ```{r echo=FALSE, out.width = "500px", out.height="250px",fig.align='center'}
-knitr::include_graphics("images/R3.jpg")
+knitr::include_graphics("images/R2.jpg")
 ```
+
+
+
+- Tercera Reunión del Grupo ad-hoc de Oficiales de Cumplimiento de los Bancos Centrales de la Región. [Boletín de prensa](http://www.secmca.org/wp-content/uploads/2021/03/Boletin-de-Prensa-Reuni%C3%B3n-Virtual-GOC.pdf)
+
 
