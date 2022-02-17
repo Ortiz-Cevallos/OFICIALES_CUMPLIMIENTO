@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r include=FALSE, cache=FALSE, results = 'hide', message = FALSE}
 library(kableExtra)
 library(latex2exp)
-C1<-c("Carmen Patricia Castro Fallas", "Eduardo Rafael Vasquez", "Rocío Beatriz Sol Merino", "Maynor Augusto Ambrosio Higueros", "Eduardo Antonio Chinchilla Mejía", "Carlos Munguía Chang", "Sonia Patricia Espino Yunes", "Luis Ernesto Ortiz Cevallos")
+C1<-c("Carmen Patricia Castro Fallas", "Eduardo Rafael Vasquez", "Rocío Beatriz Sol Merino", "Maynor Augusto Ambrosio Higueros", "Eduardo Antonio Chinchilla Mejía", "Jhara Sequeira  Mora", "Sonia Patricia Espino Yunes", "Luis Ernesto Ortiz Cevallos")
 C2<-c("Banco Central de Costa Rica", "Banco Central de Reserva de El Salvador", "Banco Central de Reserva de El Salvador", "Banco de Guatemala", "Banco Central de Honduras", "Banco Central de Nicaragua", "Banco Central de República Dominicana", "Secretaría Ejecutiva del Consejo Monetario Centroamericano")
 df<-cbind(C1,C2)
 df<-as.data.frame(df)
