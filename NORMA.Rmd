@@ -25,3 +25,4 @@ xaringanExtra::embed_xaringan(
 ```{r echo=FALSE, out.width = "500px", out.height="250px",fig.align='center'}
 knitr::include_graphics("images/TIME_LINE.pdf")
 ```
+<p style="text-align:right;">[<i class="fas fa-external-link-alt"></i>Expandir la presentación](https://ortiz-cevallos.github.io/NORMAS/TIME_LINE.pdf)</p>
