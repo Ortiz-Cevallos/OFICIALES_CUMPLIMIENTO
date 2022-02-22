@@ -1,0 +1,27 @@
+---
+title: "NORMAS PARA LA PREVENCIÓN LDA/FT/PADM"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+### NORMAS PARA LA PREVENCIÓN LDA/FT/PADM CRONOLOGÍA
+
+
+
+```{r echo=FALSE}
+xaringanExtra::embed_xaringan(
+  url = "https://ortiz-cevallos.github.io/NORMAS/PROCESO_DE_TRABAJO.html",
+  ratio = "16:9"
+)
+```
+<p style="text-align:right;">[<i class="fas fa-external-link-alt"></i>Expandir la presentación](https://ortiz-cevallos.github.io/NORMAS/PROCESO_DE_TRABAJO.html)</p>
+
+```{r echo=FALSE, out.width = "500px", out.height="250px",fig.align='center'}
+knitr::include_graphics("images/TIME_LINE.pdf")
+```

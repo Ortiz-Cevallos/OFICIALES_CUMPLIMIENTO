@@ -26,6 +26,8 @@ navbar:
           href: REPDOMI.html
     - text: "Proyectos"
       menu:
+        - text: "Normas para prevenir LDA/FT/PADM en el SIPA"
+          href: NORMA.html
         - text: "Seminarios y cursos"
           href: SEMI.html
         - text: "Material Educativo"
