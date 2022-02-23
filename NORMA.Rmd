@@ -13,14 +13,70 @@ knitr::opts_chunk$set(echo = TRUE)
 ### NORMAS PARA LA PREVENCIÓN LDA/FT/PADM CRONOLOGÍA
 
 
+```{r echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
+rm(list=ls()) #borrando todo
+dir<-"C:\\Users\\lortiz\\Desktop\\WEB_GOC"
+library("zoo")
+library("xts")
+library(plotly)
+# Read in data
 
-```{r echo=FALSE}
-xaringanExtra::embed_xaringan(
-  url = "https://ortiz-cevallos.github.io/NORMAS/PROCESO_DE_TRABAJO.html",
-  ratio = "16:9"
-)
+df<-as.xts(read.zoo("GANT_2.csv", index.column = 1, sep = ";",
+                    header=TRUE, format = "%d/%m/%Y",
+                    stringsAsFactors = F))
+df<-data.frame(date=index(df), coredata(df))
+# Convert to dates
+df$date <- as.Date(df$date)
+
+# Choose colors based on number of resources
+cols <- RColorBrewer::brewer.pal(length((df$Duración)), name = "Set3")
+df$color <- factor(df$Duración, labels = cols)
+
+# Initialize empty plot
+fig <- plot_ly()
+
+# Each task is a separate trace
+# Each trace is essentially a thick line plot
+# x-axis ticks are dates and handled automatically
+
+for(i in 1:(nrow(df) - 1)){
+  s<-i+1
+  times <-seq(df$date[i],df$date[s],by="days")
+  fig  <-add_trace(fig,
+                   x = c(df$date[i], last(times)),  # x0, x1
+                   y = c(i, i),  # y0, y1
+                   mode = "lines",
+                   line = list(color = df$color[i], width = 60),
+                   showlegend = F,
+                   hoverinfo = "text",
+
+                   # Create custom hover text
+
+                   text = paste("", "", df$Comentarios[i]),
+
+                   evaluate = T  # needed to avoid lazy loading
+  )
+}
+
+fig <- layout(fig,
+
+              # Axis options:
+              # 1. Remove gridlines
+              # 2. Customize y-axis tick labels and show task names instead of numbers
+
+              xaxis = list(showgrid = F, tickfont = list(color = "#e6e6e6")),
+
+              yaxis = list(showgrid = F, tickfont = list(color = "#e6e6e6"),
+                           tickmode = "array", tickvals = 1:nrow(df), ticktext = unique(df$Tareas),
+                           domain = c(0, 0.9)),
+
+              plot_bgcolor = "white",  # Chart area color
+              paper_bgcolor = "gray") # Axis area color
+
 ```
-<p style="text-align:right;">[<i class="fas fa-external-link-alt"></i>Expandir la presentación](https://ortiz-cevallos.github.io/NORMAS/PROCESO_DE_TRABAJO.html)</p>
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center', message=FALSE, warning=FALSE, cache=FALSE}
+fig
+```
 
 ```{r echo=FALSE, out.width = "500px", out.height="250px",fig.align='center'}
 knitr::include_graphics("images/TIME_LINE.pdf")
